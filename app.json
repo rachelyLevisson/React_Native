@@ -4,11 +4,11 @@
     "slug": "MyToDoList",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/jinji.jpg",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/jinji.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,13 +17,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/jinji.jpg",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.ruti_c.MyToDoList"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/jinji.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "781e5a5b-7dd4-4426-9d03-48b40a395abf"
+      }
     }
   }
 }
